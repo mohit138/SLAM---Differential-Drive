@@ -1,0 +1,10 @@
+<?xml version="1"?>
+<launch>
+  <include file="$(find bot_l)/launch/amcl.launch">
+</include>
+  <include file="$(find bot_l)/launch/nav_goal.launch">
+</include>
+  <include file="$(find bot_l)/launch/practice.launch">
+</include>
+
+</launch>

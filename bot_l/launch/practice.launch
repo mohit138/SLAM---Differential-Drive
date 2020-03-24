@@ -1,0 +1,15 @@
+<launch>
+
+
+ <node pkg="bot_l" type="odom_handle" name="odometry_publisher" output="screen">
+ </node>
+ 
+ <node pkg="bot_l" type="cam_las" name="robot_tf_publisher_cam" output="screen">
+ </node>
+
+ <node pkg="bot_l" type="tf_broadcaster" name="robot_tf_publisher" output="screen">
+ </node>
+
+
+</launch> 
+
